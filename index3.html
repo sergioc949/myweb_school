@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Andrés Correa Díez - Videos Educativos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .intro {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .video {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            min-width: 300px;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .video {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .video {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Matemáticas 10°</h1>
+            <p>Videos sobre Identidades Trigonométricas</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p>¡Bienvenido a mi página web! Aquí encontrarás una serie de videos educativos sobre identidades trigonométricas. Mi objetivo es ayudarte a entender estos conceptos de una manera clara y sencilla.</p>
+        </div>
+        <div class="videos">
+            <div class="video">
+                <h2>Video 1: Introducción a las Identidades Trigonométricas</h2>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <h2>Video 2: Identidades Fundamentales</h2>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <h2>Video 3: Identidades de Suma y Diferencia</h2>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Agrega más videos aquí -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sergio Andrés Correa Díez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
